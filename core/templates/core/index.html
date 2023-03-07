@@ -1,0 +1,17 @@
+{% extends 'Base.html' %}
+
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<form action="{% url 'lista' %}">
+      <div class="jumboton">
+            <h1 class="display-4">Biografias Web</h1>
+            <p class="lead">Encontre a biografia das maiores personalidades do mundo!</p>
+            <hr class="my-4">
+            <p>Use o botão abaixo para acessar a lista</p>
+            <a class="btn btn-primary btn-lg" href="{% url 'lista' %}" role="button"><i class="fa-thin fa-book-user"></i>Conhecer</a>
+      </div>
+</form>
+
+{% endblock %}

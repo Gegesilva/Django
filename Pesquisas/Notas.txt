@@ -1,0 +1,4 @@
+Super usuario
+
+username: admin
+pass: admin@1234
